@@ -1,0 +1,30 @@
+@import url('../_bold/intro__text_bold.css');
+
+.intro__text_third {
+    margin: 24px 0px 0px 0px;
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text_third {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 32px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text_third {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 32px 0px 0px 0px;
+    }
+}

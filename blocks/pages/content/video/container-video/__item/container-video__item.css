@@ -1,0 +1,52 @@
+@import url('./_item-bg/container-video__item_item-bg.css');
+@import url('./_link/container-video__item_link.css');
+@import url('.//_icon-play/container-video__item_icon-play.css');
+@import url('./_duration/container-video__item_duration-1.css');
+@import url('./_duration/container-video__item_duration-2.css');
+@import url('./_title/container-video__item_title-1.css');
+@import url('./_title/container-video__item_title-2.css');
+@import url('./_subtitle/container-video__item_subtitle-1.css');
+@import url('./_subtitle/container-video__item_subtitle-2.css');
+
+.container-video__item {
+    position: relative;
+    width: 100%;
+    max-width: 583px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container-video__item:first-child {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-video__item {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-video__item {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-video__item {
+        width: 343px;
+        height: 200px;
+    }
+    .container-video__item:first-child {
+        margin: 0px 0px 8px 0px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .container-video__item {
+        width: 288px;
+        height: 192px;
+    }
+}

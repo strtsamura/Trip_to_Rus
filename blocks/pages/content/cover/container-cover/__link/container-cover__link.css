@@ -1,0 +1,36 @@
+.container-cover__link {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    background-color: #000000;
+}
+
+.container-cover__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px){
+    .container-cover__link {
+        max-width: 768px;
+        max-height: 500px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .container-cover__link {
+        max-width: 375px;
+        max-height: 272px;
+    }
+}
+
+@media screen and (max-width: 374px) and (min-width: 320px){
+    .container-cover__link {
+        max-width: 320px;
+        max-height: 216px;
+    }
+}

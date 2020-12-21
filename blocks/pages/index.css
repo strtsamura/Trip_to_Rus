@@ -1,0 +1,8 @@
+@import url('./content/content.css');
+.page {  
+    width: 100%;  
+    font-family: Inter;
+    
+    background: #2A2C2F;
+}
+

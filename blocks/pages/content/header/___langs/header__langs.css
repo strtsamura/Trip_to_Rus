@@ -1,0 +1,7 @@
+@import url('./_lang/header__langs_lang.css');
+
+.header__langs {
+    display: flex;
+
+    margin-bottom: 12px;
+}

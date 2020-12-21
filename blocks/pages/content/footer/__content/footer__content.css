@@ -1,0 +1,48 @@
+@import url('./__links/footer__links.css');
+@import url('./__coppyright/footer__coppyright.css');
+
+.footer__content {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+@media screen and (max-width: 1280px)  {
+    .footer__content {
+        max-width: 1184px;
+        max-height: 23px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .footer__content {
+        max-width: 929px;
+        max-height: 23px;
+    }
+}
+
+@media screen and (max-width: 1024px)  {
+    .footer__content {
+        max-width: 929px;
+        max-height: 23px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__content {
+        max-width: 722px;
+        max-height: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__content {
+        max-width: 282px;
+        max-height: 312px;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: 16px;
+    }
+}

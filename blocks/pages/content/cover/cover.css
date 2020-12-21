@@ -1,0 +1,21 @@
+@import url('./container-cover/container-cover.css');
+
+.cover {
+    width: 100%;
+    max-width: 1184px;
+    margin: 102px auto 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375px) {
+    .cover {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 64px;
+    }
+}

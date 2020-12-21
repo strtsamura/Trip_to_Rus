@@ -1,0 +1,25 @@
+@import url('./__cover-bg/container-cover__cover-bg.css');
+@import url('./__link/container-cover__link.css');
+@import url('./__subtitle/container-cover__subtitle.css');
+@import url('./__title/container-cover__title.css');
+
+.container-cover {
+    width: 100%;
+    max-width: 1184px;
+    margin: 0px;
+    position: relative;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .container-cover {
+        max-width: 375px;
+        max-height: 272px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .container-cover {
+        max-width: 320px;
+        max-height: 216px;
+    }
+}

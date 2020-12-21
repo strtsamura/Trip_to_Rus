@@ -1,0 +1,65 @@
+.container-cover__title {    
+    width: 1094.27px;
+    height: 69px;
+    margin: 0px;
+    position: absolute;
+    top: 274px;
+    left: 38.85px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 78px;    
+    text-align: center;
+
+    color: #FFFDFD;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1154px){
+    .container-cover__title {
+        width: 925px;
+        height: 65px;
+        top: 237px;
+        left: 49.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-cover__title {
+        max-width: 1094.27px;
+        max-height: 69px;
+        top: 193px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .container-cover__title {
+        width: 720px;
+        height: 170px;
+        top: 140px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px){
+    .container-cover__title {
+        width: 343px;
+        height: 80px;
+        font-size: 32px;
+        line-height: 35px;
+        top: 104px;
+        left: 16px;
+    }
+}
+
+@media screen and (max-width: 374px) and (min-width: 320px){
+    .container-cover__title {
+        width: 288px;
+        height: 72px;
+        font-size: 32px;
+        line-height: 35px;
+        top: 64px;
+        left: 16px;
+    }
+}

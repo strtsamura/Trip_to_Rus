@@ -1,0 +1,45 @@
+.content-title_comments {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .content-title_comments {
+        font-size: 72px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content-title_comments {
+        max-width: 660px;
+        max-height: 103px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .content-title_comments {
+        max-width: 343px;
+        max-height: 80px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .content-title_comments {
+        max-width: 288px;
+        max-height: 112px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

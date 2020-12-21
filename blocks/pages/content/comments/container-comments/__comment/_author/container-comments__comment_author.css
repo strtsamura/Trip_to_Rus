@@ -1,0 +1,16 @@
+.container-comments__comment_author {
+    margin: 24px 0px 0px 0px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .container-comments__comment_author{
+        position: absolute;
+        top: 105px;
+        margin: 0px auto 0px auto;
+    }
+}

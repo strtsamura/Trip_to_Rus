@@ -1,0 +1,40 @@
+.photo-grid__item {
+    display: block;
+    width: 284px; 
+    height: 188px;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__item {
+        width: 300px; 
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__item {
+        max-width: 400px; 
+        height: 234px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .photo-grid__item {
+        width: 343px; 
+        height: 232px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .photo-grid__item {
+        width: 288px; 
+        height: 192px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__item {
+        width: 288px; 
+        height: 192px;
+    }
+}

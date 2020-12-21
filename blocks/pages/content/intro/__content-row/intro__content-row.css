@@ -1,0 +1,20 @@
+@import url('./__text/_first/intro__text_first.css');
+@import url('./__text/_second/intro__text_second.css');
+
+.intro__content-row {
+    margin-top: 48px;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 375px) {
+    .intro__content-row {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__content-row {
+        margin-top: 32px;
+    }
+}

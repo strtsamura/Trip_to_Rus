@@ -1,0 +1,30 @@
+.container-video__item_subtitle-2 {
+    height: 13px;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-video__item_subtitle-2 {
+        font-size: 14px;
+        line-height: 15px;
+        top: 240px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-video__item_subtitle-2 {
+        font-size: 14px;
+        line-height: 15px;
+        top: 163px;
+        left: 24px;
+    }
+}

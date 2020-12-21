@@ -1,0 +1,16 @@
+.place__website_url {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    margin: 0px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website_url {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

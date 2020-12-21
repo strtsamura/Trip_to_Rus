@@ -1,0 +1,37 @@
+@import url('./__comment/container-comments__comment.css');
+
+.container-comments {
+    width: 100%;
+    max-width: 928px;
+    margin: 72px auto 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container-comments {
+        max-width: 382px;
+        max-height: 806px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 72px;
+    } 
+} 
+
+@media screen and (max-width: 767px) {
+    .container-comments {
+        max-width: 343px;
+        max-height: 1089px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px; 
+    } 
+} 
+
+@media screen and (max-width: 320px) {
+    .container-comments {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px; 
+    } 
+} 
